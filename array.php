@@ -12,3 +12,9 @@ array("fname"=>'Tom' "lname"=>'Daniels')
 <?php
 echo 'The first fristname is '.$students[0]['fname'];
 ?>
+<h3>Print the whole array</h3>
+<?php
+foreach($students as $row)
+{echo $row['fname'].' '.$['lname'].'<br> ; 
+}
+?>
