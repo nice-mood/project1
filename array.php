@@ -20,7 +20,7 @@ foreach($students as $row)
 ?>
 <h3>Names in a table</h3>
 
-<table border="1">
+<table class= "table table-striped table-hover" border="1">
 <tr><th>Firstname</th> <th>Lastname</th></tr>
 <?phpforeach($student as $row)
 {

@@ -10,8 +10,12 @@
 <input type"submit" name="sendBtn" value="send">
 </form>
 <?php
+$btn=$_POST['sendBtn']
+if(isset($btn))
+{}
 $fn=$_POST['fname'];
 $fl=$_POST['lname'];
-echo 'hello '.$fn ' '.$ln
+echo 'hello '.$fn ' '.$ln ;
+}
 
 ?>
